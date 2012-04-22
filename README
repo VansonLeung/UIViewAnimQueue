@@ -10,7 +10,49 @@ To use this class, you can add this class as a composition of a certain UIView/U
 
 Then you can use the function inside the subclass listed in UIViewAnimQueue.h
 
-Details will be explained when I have time to go on with this README.
+
+Public Functions:
+
+Firstly you need to init UIViewAnimQueue, and then you need to point it to a target UIView you wish to control, 
+by using the function below:
+-(void)setupAnimSessionWithTarget:(UIView*)_target;
+
+
+The following 2 functions push animation parameters.
+Upon pushing, animation should sequentially run one by one.
+Custom Rect size:
+-(void)pushWithRect:(CGRect)rect delay:(CGFloat)delay duration:(CGFloat)duration curve:(UIViewAnimationCurve)curve;
+Return to its original size:
+-(void)pushWithDefaultWithDelay:(CGFloat)delay duration:(CGFloat)duration curve:(UIViewAnimationCurve)curve;
+
+
+Public functions somehow obsolote/buggy below:
+-(void)startAnim;
+
+
+Pause the animation by running the function below:
+-(void)stopAnim;
+
+
+Useful functions below:
+
+
+You can forcibly pop & run the next animation while overriding currently running animation.
+-(void)forcePop;
+
+
+You can terminate the animation by cleaning the queue.
+-(void)cleanQueue;
+
+
+You can clean the queue while resetting UIView's position at the same time by running the following:
+-(void)resetDefault;
+
+
+
+Example usage:
+Please see "VanButton.h" & "VanButton.m"
+
 
 
 
