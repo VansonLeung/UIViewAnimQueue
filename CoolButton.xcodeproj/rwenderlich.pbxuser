@@ -1,0 +1,242 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* CoolButton */ = {
+		activeExec = 0;
+		executables = (
+			354AE900125525DA00D2EB7E /* CoolButton */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* CoolButtonViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {605, 364}}";
+			sepNavSelRange = "{466, 0}";
+			sepNavVisRange = "{0, 474}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* CoolButtonViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {849, 1053}}";
+			sepNavSelRange = "{489, 0}";
+			sepNavVisRange = "{291, 888}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 354AE900125525DA00D2EB7E /* CoolButton */;
+		activeSDKPreference = iphonesimulator4.1;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* CoolButton */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* CoolButton */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = 354AE912125525DF00D2EB7E /* Code sense */;
+		executables = (
+			354AE900125525DA00D2EB7E /* CoolButton */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					671,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.XCSCMDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					647,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_SCM_ColumnID,
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 307570138;
+			PBXWorkspaceStateSaveDate = 307570138;
+		};
+		perUserProjectItems = {
+			354AE93A12552A4D00D2EB7E /* PBXTextBookmark */ = 354AE93A12552A4D00D2EB7E /* PBXTextBookmark */;
+			354AE96E125536B300D2EB7E /* PBXTextBookmark */ = 354AE96E125536B300D2EB7E /* PBXTextBookmark */;
+			354AE96F125536B300D2EB7E /* PBXTextBookmark */ = 354AE96F125536B300D2EB7E /* PBXTextBookmark */;
+			354AE9AF12553F0E00D2EB7E /* PBXTextBookmark */ = 354AE9AF12553F0E00D2EB7E /* PBXTextBookmark */;
+			354AE9CD1255419B00D2EB7E /* PBXTextBookmark */ = 354AE9CD1255419B00D2EB7E /* PBXTextBookmark */;
+			354AE9CE1255419B00D2EB7E /* PBXTextBookmark */ = 354AE9CE1255419B00D2EB7E /* PBXTextBookmark */;
+			354AE9D41255426D00D2EB7E /* PBXTextBookmark */ = 354AE9D41255426D00D2EB7E /* PBXTextBookmark */;
+		};
+		sourceControlManager = 354AE911125525DF00D2EB7E /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	354AE900125525DA00D2EB7E /* CoolButton */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = CoolButton;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	354AE911125525DF00D2EB7E /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	354AE912125525DF00D2EB7E /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	354AE9151255263200D2EB7E /* CoolButton.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {849, 395}}";
+			sepNavSelRange = "{363, 0}";
+			sepNavVisRange = "{0, 364}";
+		};
+	};
+	354AE9161255263200D2EB7E /* CoolButton.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {929, 1989}}";
+			sepNavSelRange = "{816, 0}";
+			sepNavVisRange = "{404, 1484}";
+		};
+	};
+	354AE93A12552A4D00D2EB7E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* CoolButtonViewController.h */;
+		name = "CoolButtonViewController.h: 21";
+		rLen = 0;
+		rLoc = 466;
+		rType = 0;
+		vrLen = 474;
+		vrLoc = 0;
+	};
+	354AE9411255324700D2EB7E /* Common.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {933, 392}}";
+			sepNavSelRange = "{704, 0}";
+			sepNavVisRange = "{0, 745}";
+		};
+	};
+	354AE9421255324700D2EB7E /* Common.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {933, 1209}}";
+			sepNavSelRange = "{1412, 0}";
+			sepNavVisRange = "{2287, 1737}";
+		};
+	};
+	354AE96E125536B300D2EB7E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 354AE9421255324700D2EB7E /* Common.m */;
+		name = "Common.m: 40";
+		rLen = 0;
+		rLoc = 1412;
+		rType = 0;
+		vrLen = 1737;
+		vrLoc = 2287;
+	};
+	354AE96F125536B300D2EB7E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 354AE9411255324700D2EB7E /* Common.h */;
+		name = "Common.h: 17";
+		rLen = 0;
+		rLoc = 704;
+		rType = 0;
+		vrLen = 745;
+		vrLoc = 0;
+	};
+	354AE9AF12553F0E00D2EB7E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 354AE9151255263200D2EB7E /* CoolButton.h */;
+		name = "CoolButton.h: 22";
+		rLen = 0;
+		rLoc = 363;
+		rType = 0;
+		vrLen = 364;
+		vrLoc = 0;
+	};
+	354AE9CD1255419B00D2EB7E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 354AE9161255263200D2EB7E /* CoolButton.m */;
+		name = "CoolButton.m: 35";
+		rLen = 0;
+		rLoc = 816;
+		rType = 0;
+		vrLen = 1484;
+		vrLoc = 404;
+	};
+	354AE9CE1255419B00D2EB7E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* CoolButtonViewController.m */;
+		name = "CoolButtonViewController.m: 68";
+		rLen = 0;
+		rLoc = 1548;
+		rType = 0;
+		vrLen = 504;
+		vrLoc = 1419;
+	};
+	354AE9D41255426D00D2EB7E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* CoolButtonViewController.m */;
+		name = "CoolButtonViewController.m: 19";
+		rLen = 0;
+		rLoc = 489;
+		rType = 0;
+		vrLen = 888;
+		vrLoc = 291;
+	};
+}
