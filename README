@@ -1,0 +1,17 @@
+UIViewAnimQueue
+
+I used example code from a tutorial of making cool buttons in http://www.raywenderlich.com/
+
+And implemented my UIViewAnimQueue inside the CoolButton class.
+
+UIViewAnimQueue is a subclass of UIView.
+
+To use this class, you can add this class as a composition of a certain UIView/UIControl.
+
+Then you can use the function inside the subclass listed in UIViewAnimQueue.h
+
+Details will be explained when I have time to go on with this README.
+
+
+
+Van
