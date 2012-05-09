@@ -1,4 +1,40 @@
-UIViewAnimQueue
+Still doing this:
+
+UIViewAnimationTransition transition = UIViewAnimationTransitionCurlUp;
+UIViewAnimationCurve curve = UIViewAnimationCurveEaseInOut;
+[UIView beginAnimations:@"anim" context:NULL];
+[UIView setAnimationCurve:curve];
+[UIView setAnimationTransition:transition forView:[self view] cache:YES];
+[UIView setAnimationDuration:1.0f];
+[UIView commitAnimations];
+
+????
+
+Or this:
+
+[UIView animateWithDuration:2 delay: 0 options: 0 animations:
+^(void) { [controller setBackgroundColor: [UIColor blueColor]]; }
+completion: 
+
+^(BOOL wrwg) {
+    [UIView animateWithDuration:2 delay: 2 options: 0 animations:
+    ^(void) { [controller setBackgroundColor: [UIColor redColor]]; }
+    completion: nil];
+}];
+
+????
+
+It's too bulky & non Object-oriented. I hate it very much when I need to do some complex animations in queue.
+
+
+Therefore I made UIAnimQueue...
+
+
+
+
+
+
+
 
 I used example code from a tutorial of making cool buttons in http://www.raywenderlich.com/
 
